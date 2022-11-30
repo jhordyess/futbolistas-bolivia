@@ -14,6 +14,7 @@ module.exports = {
     alias: {
       "@components": path.resolve(__dirname, "src", "components"),
       "@styles": path.resolve(__dirname, "src", "styles"),
+      "@utils": path.join(__dirname, "src", "utils"),
     },
   },
   module: {
@@ -25,11 +26,7 @@ module.exports = {
       },
       {
         test: /\.s[ac]ss$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
-          "sass-loader",
-        ],
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
     ],
   },

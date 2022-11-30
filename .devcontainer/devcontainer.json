@@ -5,7 +5,8 @@
     "vscode": {
       "extensions": [
         "esbenp.prettier-vscode",
-        "burkeholland.simple-react-snippets"
+        "burkeholland.simple-react-snippets",
+        "Syler.sass-indented"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "zsh"

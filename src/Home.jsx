@@ -1,71 +1,83 @@
 import React from "react";
-import Papa from "papaparse";
 import MUIDataTable from "mui-datatables";
+import fetchData from "@utils/fetchData";
+
 const columns = [
   {
     name: "name",
-    label: "name",
+    label: "Nombre",
     options: {
       filter: false,
     },
   },
-  "age",
+  {
+    name: "age",
+    label: "Edad",
+  },
   {
     name: "number",
-    label: "number",
+    label: "Número",
     options: {
       filter: false,
     },
   },
-  "nationality",
-  "club",
+  {
+    name: "nationality",
+    label: "Nacionalidad",
+  },
+  {
+    name: "club",
+    label: "Club",
+  },
   {
     name: "date born",
-    label: "date born",
+    label: "Fecha de nacimiento",
     options: {
       filter: false,
       display: false,
     },
   },
-  "height",
-  "weight",
-  "pos",
+  {
+    name: "height",
+    label: "Estatura",
+  },
+  {
+    name: "weight",
+    label: "Peso",
+  },
+  {
+    name: "pos",
+    label: "Posición",
+  },
   {
     name: "feet",
-    label: "feet",
+    label: "Pie",
     options: {
       display: false,
     },
   },
-  "nat team",
+  {
+    name: "nat team",
+    label: "Equipo Nacional",
+  },
 ];
 export default function () {
   const [data, setData] = React.useState([]);
 
-  const fetchData = async () => {
-    try {
-      const request = await fetch(
-        "https://raw.githubusercontent.com/gersontorrezm/bolivian-soccer/main/soccer-players.csv"
-      );
-      const text = await request.text();
-      const _data = Papa.parse(text).data;
-      _data.shift();
-      // _data.pop();
-      setData(_data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
   React.useEffect(() => {
-    fetchData();
+    fetchData(setData);
   }, []);
 
   const options = {
     filterType: "checkbox",
     responsive: "standard",
     selectableRows: "none",
+    sortOrder: {
+      name: "name",
+      direction: "asc",
+    },
   };
+
   return (
     <div className="container">
       <h2>Futbolistas bolivia</h2>
