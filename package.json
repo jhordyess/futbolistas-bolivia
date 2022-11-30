@@ -1,10 +1,12 @@
 {
   "name": "futbolistas-bolivia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lista de los jugadores de Fútbol de Bolivia",
   "keywords": [
     "Soccer",
-    "Bolivia"
+    "Bolivia",
+    "React",
+    "CSV"
   ],
   "author": "Jhordy Gavinchu <dev@jhordyess.com>",
   "license": "MIT",

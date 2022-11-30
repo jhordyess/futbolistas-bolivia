@@ -80,7 +80,25 @@ export default function () {
 
   return (
     <div className="container">
-      <h2>Futbolistas bolivia</h2>
+      <h2>Futbolistas de bolivia</h2>
+      <p>
+        Información consultada gracias a&nbsp;
+        <a
+          href="https://github.com/gersontorrezm"
+          rel="noreferrer"
+          target="_blank"
+        >
+          @gersontorrezm
+        </a>
+        &nbsp; y su repositorio:&nbsp;
+        <a
+          href="https://github.com/gersontorrezm/bolivian-soccer"
+          rel="noreferrer"
+          target="_blank"
+        >
+          bolivian-soccer
+        </a>
+      </p>
       <div>
         <MUIDataTable
           title="Lista de jugadores"
@@ -90,7 +108,7 @@ export default function () {
         />
       </div>
       <footer>
-        Made with 💪 by{" "}
+        Hecho con 💪 por&nbsp;
         <a href="https://jhordyess.com" target="_blank" rel="noreferrer">
           Jhordyess
         </a>
