@@ -4,6 +4,20 @@ Lista de los jugadores de Fútbol de Bolivia, información como nombres, edad, n
 
 Una representación visual del archivo CSV con peticiones al repositorio: [bolivian-soccer](https://github.com/gersontorrezm/bolivian-soccer) de [@gersontorrezm](https://github.com/gersontorrezm).
 
+## Dockerize
+
+Ejecuta el archivo `docker.sh`, creará una nueva imagen de contenedor con el tag `jhordyess/datun` y lo ejecutará; así puedes visitar: [http://localhost](http://localhost).
+
+```sh
+bash docker.sh
+```
+
+Ejecuta el archivo `docker.ps1` para PowerShell.
+
+```ps1
+& ./docker.ps1
+```
+
 ## Online
 
 Visita la página funcionando: <https://jhordyess.github.io/futbolistas-bolivia/>
