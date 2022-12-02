@@ -8,6 +8,10 @@ Una representación visual del archivo CSV con peticiones al repositorio: [boliv
 
 Visita la página funcionando: <https://jhordyess.github.io/futbolistas-bolivia/>
 
+## Dockerize
+
+Por favor revisa la rama [docker](https://github.com/jhordyess/data-unit-converter/tree/docker).
+
 ## Dev Info
 
 - JavaScript library: [Meta - React](https://reactjs.org/)
