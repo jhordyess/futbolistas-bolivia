@@ -19,10 +19,6 @@ Visita la página funcionando: <https://jhordyess.github.io/futbolistas-bolivia/
 - Server Environment : [OpenJS Foundation - Node.js](https://nodejs.org/)
 - [VSCode](https://code.visualstudio.com/) with [remote containers](https://code.visualstudio.com/docs/remote/containers) ([Docker](https://www.docker.com/) multiple containers)
 
-## TODO
-
-- Traducir el componente MUI DataTable.
-
 ## Licencia
 
 © 2022 [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license.
