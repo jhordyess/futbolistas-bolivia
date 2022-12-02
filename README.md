@@ -10,7 +10,7 @@ Visita la página funcionando: <https://jhordyess.github.io/futbolistas-bolivia/
 
 ## Dockerize
 
-Por favor revisa la rama [docker](https://github.com/jhordyess/data-unit-converter/tree/docker).
+Por favor revisa la rama [docker](https://github.com/jhordyess/futbolistas-bolivia/tree/docker).
 
 ## Dev Info
 
