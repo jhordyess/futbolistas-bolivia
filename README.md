@@ -6,7 +6,7 @@ Una representación visual del archivo CSV con peticiones al repositorio: [boliv
 
 ## Online
 
-Visita la página funcionando: <https://jhordyess.github.io/futbolistas-bolivia/>
+Visita la página funcionando: <https://ftbol.jhordyess.com>
 
 ## Dockerize
 
@@ -25,7 +25,7 @@ Por favor revisa la rama [docker](https://github.com/jhordyess/futbolistas-boliv
 
 ## Licencia
 
-© 2022 [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license.
+© 2023 [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ---
 
