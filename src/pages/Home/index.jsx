@@ -1,6 +1,7 @@
 import React from "react";
 import MUIDataTable from "mui-datatables";
 import fetchData from "@utils/fetchData";
+import columns from "./columns";
 
 const spanish = {
   body: {
@@ -30,65 +31,6 @@ const spanish = {
   },
 };
 
-const columns = [
-  {
-    name: "name",
-    label: "Nombre",
-    options: {
-      filter: false,
-    },
-  },
-  {
-    name: "age",
-    label: "Edad",
-  },
-  {
-    name: "number",
-    label: "Número",
-    options: {
-      filter: false,
-    },
-  },
-  {
-    name: "nationality",
-    label: "Nacionalidad",
-  },
-  {
-    name: "club",
-    label: "Club",
-  },
-  {
-    name: "date born",
-    label: "Fecha de nacimiento",
-    options: {
-      filter: false,
-      display: false,
-    },
-  },
-  {
-    name: "height",
-    label: "Estatura",
-  },
-  {
-    name: "weight",
-    label: "Peso",
-  },
-  {
-    name: "pos",
-    label: "Posición",
-  },
-  {
-    name: "feet",
-    label: "Pie",
-    options: {
-      display: false,
-    },
-  },
-  {
-    name: "nat team",
-    label: "Equipo Nacional",
-  },
-];
 export default function () {
   const [data, setData] = React.useState([]);
 
