@@ -4,6 +4,10 @@ Lista de los jugadores de Fútbol de Bolivia, información como nombres, edad, n
 
 Una representación visual del archivo CSV con peticiones al repositorio: [bolivian-soccer](https://github.com/gersontorrezm/bolivian-soccer) de [@gersontorrezm](https://github.com/gersontorrezm).
 
+## Screenshot
+
+![Home](https://res.cloudinary.com/jhordyess/image/upload/v1675257054/futbolistas-bolivia/home.png_sxc6q8.png)
+
 ## Online
 
 Visita la página funcionando: <https://ftbol.jhordyess.com>
