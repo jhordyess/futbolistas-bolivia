@@ -2,31 +2,32 @@
 
 Lista de los jugadores de Fútbol de Bolivia, información como nombres, edad, nacionalidad, club al que pertenece, etc.
 
-Una representación visual del archivo CSV con peticiones al repositorio: [bolivian-soccer](https://github.com/gersontorrezm/bolivian-soccer) de [@gersontorrezm](https://github.com/gersontorrezm).
+## Descripción
 
-## Screenshot
+Se hace representación visual a un archivo CSV existente en el repositorio: [bolivian-soccer](https://github.com/gersontorrezm/bolivian-soccer) de [@gersontorrezm](https://github.com/gersontorrezm).
 
-![Home](https://res.cloudinary.com/jhordyess/image/upload/v1675257054/futbolistas-bolivia/home.png_sxc6q8.png)
+### Tecnologías usadas
 
-## Online
+- Librerías de JS: [ReactJS](https://reactjs.org/), [Material-UI](https://mui.com/), [MUI-Datatables](https://github.com/gregnb/mui-datatables), [Papa Parse](https://www.papaparse.com/)
+- Librerías de CSS: [Sass](https://sass-lang.com/)
+- Fuente: [Spline Sans by Eben Sorkin, Mirko Velimirović](https://fonts.google.com/specimen/Spline+Sans)
+- Programming Language: [JavaScript ES6+](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Bundler: [Webpack](https://webpack.js.org/)
+- Hosting: [GitHub Pages](https://pages.github.com/)
+- Entorno de desarrollo: [VSCode](https://code.visualstudio.com/) con [dev containers](https://code.visualstudio.com/docs/remote/containers) en [Zorin OS](https://zorinos.com/)
+
+### Online
 
 Visita la página funcionando: <https://ftbol.jhordyess.com>
 
-## Dev Info
+### Capturas
 
-- JavaScript library: [Meta - React](https://reactjs.org/)
-- React UI library: [Material-UI](https://mui.com/)
-- Responsible datatables component: [MUI-Datatables - Datatables for Material-UI](https://github.com/gregnb/mui-datatables)
-- CSV parser: [Matt Holt - Papa Parse](https://www.papaparse.com/)
-- CSS preprocessor: [Sass](https://sass-lang.com/)
-- Module bundler: [OpenJS Foundation - Webpack](https://webpack.js.org/)
-- Server Environment : [OpenJS Foundation - Node.js](https://nodejs.org/)
-- [VSCode](https://code.visualstudio.com/) with [remote containers](https://code.visualstudio.com/docs/remote/containers) ([Docker](https://www.docker.com/) multiple containers)
+![Home](https://res.cloudinary.com/jhordyess/image/upload/v1675257054/futbolistas-bolivia/home.png_sxc6q8.png)
 
-## Licencia
+## License
 
-© 2023 [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license.
+© 2022> [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
-Hecho con 💪 por [Jhordyess](https://www.jhordyess.com/)
+Made with 💪 by [Jhordyess](https://www.jhordyess.com/)
